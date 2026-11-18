@@ -1,0 +1,6 @@
+dashboard.html
+data/
+scripts/
+.claude/
+*.log
+patrol_status.js
