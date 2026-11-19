@@ -1,1 +1,1 @@
-window.PATROL = { time: "2026-11-19 09:27:16", alerts: [{"level":"TRIGGER","name":"爱仕达","msg":"双顶11.44触及：卖2000股锁利"},] };
+window.PATROL = { time: "2026-11-19 09:32:16", alerts: [{"level":"WARN","name":"爱仕达","msg":"走弱10.80：减半2000股预警"},{"level":"INFO","name":"歌尔股份","msg":"进入企稳观察区22.0~22.5：三信号确认后买2万"},{"level":"WARN","name":"北投科技","msg":"洗盘线3.98争夺：明日关键"},{"level":"WARN","name":"皇台酒业","msg":"投机票破今日低点：看戏"},] };
