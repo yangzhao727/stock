@@ -1,1 +1,1 @@
-window.PATROL = { time: "2026-11-26 14:05:19", alerts: [{"level":"WARN","name":"爱仕达","msg":"跌破11-26低点8.75：深冻继续"},{"level":"WARN","name":"美湖股份","msg":"跌破11-26低点16.70：阴跌继续"},{"level":"WARN","name":"莱美药业","msg":"跌破8.00整数关：崩塌继续（利空未查明）"},] };
+window.PATROL = { time: "2026-11-26 15:12:08", alerts: [{"level":"WARN","name":"莱美药业","msg":"跌破8.00整数关：崩塌继续（利空未查明）"},] };
