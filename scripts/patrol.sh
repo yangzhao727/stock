@@ -45,6 +45,10 @@ raw=$(echo "$data" | tr ';' '\n' | grep '^v_' | sed 's/^v_[a-z]*="//' | awk -F'~
     if (p<=16.70)      printf "WARN|美湖股份|跌破11-26低点16.70：阴跌继续\n"
     else if (p>=18.50) printf "INFO|美湖股份|收复18.5：解禁信号\n"
   }
+  else if (sym=="002029") {
+    if (p<=6.18)       printf "TRIGGER防守|七匹狼|止损线6.18跌破：清仓3100股\n"
+    else if (p>=6.85)  printf "TRIGGER止盈|七匹狼|到出货区6.85~7.0：全清3100股（套牢区逃命口）\n"
+  }
   else if (sym=="300006") {
     if (p<=8.00)       printf "WARN|莱美药业|跌破8.00整数关：崩塌继续（利空未查明）\n"
     else if (p>=8.49)  printf "INFO|莱美药业|过11-26高点8.49：止跌信号+1\n"
